@@ -1,0 +1,20 @@
+{
+  "sectionTitle": "Blog & Algorithmes",
+  "sectionSubtitle": "Mes réflexions sur l'IA, le Machine Learning et l'ingénierie des données.",
+  "post1": {
+    "title": "Comment j'ai optimisé un modèle de classification de 40%",
+    "excerpt": "Retour d'expérience sur les techniques d'optimisation qui m'ont permis de passer d'un F1-score de 0.67 à 0.94 sur un problème de classification multi-classes en NLP."
+  },
+  "post2": {
+    "title": "Architecture d'un pipeline de données scalable",
+    "excerpt": "Guide pratique pour concevoir une architecture de données moderne : du choix entre batch et streaming, à l'orchestration avec Airflow, en passant par le monitoring."
+  },
+  "post3": {
+    "title": "LLMs en production : retours d'expérience et pièges à éviter",
+    "excerpt": "Après avoir déployé 3 systèmes basés sur des LLMs, voici les leçons apprises sur le prompt engineering, le RAG, les coûts et la gestion de la latence."
+  },
+  "post4": {
+    "title": "Du notebook à la production : industrialiser un modèle ML",
+    "excerpt": "Le notebook Jupyter est un excellent outil d'exploration. Mais comment transformer un prototype en un service fiable ? MLOps, CI/CD, et bonnes pratiques."
+  }
+}

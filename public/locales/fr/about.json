@@ -1,0 +1,23 @@
+{
+  "sectionTitle": "À Propos",
+  "bio": "Passionné par l'Intelligence Artificielle et les données, je suis convaincu que la technologie doit être au service de l'humain et de la performance business. Mon approche allie rigueur scientifique et pragmatisme d'ingénieur : je conçois des solutions qui ne restent pas au stade du prototype, mais qui passent en production et créent de la valeur.\n\nSensible aux enjeux éthiques de l'IA, je m'engage à développer des systèmes responsables, explicables et équitables. Attiré par l'écosystème suisse — son excellence en recherche, sa culture de la précision et son dynamisme technologique — je cherche à contribuer à des projets ambitieux au cœur de l'innovation européenne.",
+  "skillsTitle": "Compétences",
+  "skills": {
+    "ai": {
+      "title": "🧠 Modélisation IA",
+      "items": ["PyTorch", "TensorFlow", "Scikit-Learn", "Transformers", "LangChain", "LLMs", "Computer Vision", "NLP"]
+    },
+    "data": {
+      "title": "🛠️ Data Engineering",
+      "items": ["SQL", "PostgreSQL", "Apache Spark", "Airflow", "dbt", "Kafka", "Elasticsearch"]
+    },
+    "dev": {
+      "title": "💻 Développement",
+      "items": ["Python", "TypeScript", "React", "FastAPI", "Docker", "Git", "CI/CD", "Linux"]
+    },
+    "cloud": {
+      "title": "☁️ Cloud & MLOps",
+      "items": ["AWS", "GCP", "MLflow", "Kubernetes", "Terraform", "Grafana", "Evidently AI"]
+    }
+  }
+}

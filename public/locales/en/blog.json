@@ -1,0 +1,20 @@
+{
+  "sectionTitle": "Blog & Algorithms",
+  "sectionSubtitle": "My thoughts on AI, Machine Learning and Data Engineering.",
+  "post1": {
+    "title": "How I optimized a classification model by 40%",
+    "excerpt": "Lessons learned on the optimization techniques that helped me go from a 0.67 F1-score to 0.94 on a multi-class NLP classification problem."
+  },
+  "post2": {
+    "title": "Designing a scalable data pipeline architecture",
+    "excerpt": "A practical guide to designing modern data architecture: from choosing between batch and streaming, to Airflow orchestration and monitoring."
+  },
+  "post3": {
+    "title": "LLMs in production: lessons learned and pitfalls to avoid",
+    "excerpt": "After deploying 3 LLM-based systems, here are the lessons on prompt engineering, RAG, costs, and latency management."
+  },
+  "post4": {
+    "title": "From notebook to production: industrializing an ML model",
+    "excerpt": "Jupyter notebooks are great for exploration. But how to transform a prototype into a reliable service? MLOps, CI/CD, and best practices."
+  }
+}

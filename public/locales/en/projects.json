@@ -1,0 +1,16 @@
+{
+  "sectionTitle": "Projects",
+  "sectionSubtitle": "A curated selection of AI, Data Science and Engineering projects.",
+  "project1": {
+    "title": "Local Multimodal RAG",
+    "description": "Intelligent conversational assistant using RAG (Retrieval-Augmented Generation) on complex technical documentation.",
+    "problem": "Technicians spent considerable time searching for vital information buried in industrial documents rich in diagrams and tables that traditional search systems ignored.",
+    "solution": "Implemented a 100% local RAG system with LangChain, multimodal embeddings via Gemma 4:12b (Ollama), and ChromaDB. The chatbot instantly retrieves relevant technical data (text and images), ensuring absolute privacy of industrial data."
+  },
+  "project2": {
+    "title": "Rocket League Bot Detector",
+    "description": "Full-stack Machine Learning application to automatically classify players as humans or bots from replay files.",
+    "problem": "Cheating using AI bots in Rocket League disrupts competitive integrity, and manually identifying them from replay data is time-consuming and complex.",
+    "solution": "Built a full-stack system: a React/Vercel frontend with a secure proxy API, and a FastAPI Hugging Face backend. It extracts physical and network features from .replay files and runs a custom PyTorch model for highly accurate inference."
+  }
+}

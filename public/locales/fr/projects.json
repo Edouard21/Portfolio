@@ -1,0 +1,16 @@
+{
+  "sectionTitle": "Projets",
+  "sectionSubtitle": "Une sélection de projets en IA, Data Science et Engineering.",
+  "project1": {
+    "title": "RAG Multimodal Local",
+    "description": "Assistant conversationnel intelligent utilisant RAG (Retrieval-Augmented Generation) sur une documentation technique complexe.",
+    "problem": "Les techniciens passaient un temps considérable à rechercher des informations vitales enfouies dans des documents industriels riches en schémas et tableaux que les systèmes de recherche classiques ignoraient.",
+    "solution": "Implémentation d'un système RAG 100% local avec LangChain, embeddings multimodaux via Gemma 4:12b (Ollama) et ChromaDB. Le chatbot retrouve instantanément les données techniques pertinentes (texte et images), garantissant la confidentialité absolue des données industrielles."
+  },
+  "project2": {
+    "title": "Détecteur de Bots Rocket League",
+    "description": "Application Machine Learning full-stack pour classifier automatiquement les joueurs humains et les bots à partir de fichiers de replay.",
+    "problem": "L'utilisation de bots IA dans Rocket League nuit à l'intégrité compétitive, et leur identification manuelle à partir des données de replay est complexe et chronophage.",
+    "solution": "Développement d'un système complet : frontend React/Vercel avec API proxy sécurisée, et backend FastAPI sur Hugging Face. Le système extrait les caractéristiques physiques et réseau des fichiers .replay et utilise un modèle PyTorch sur mesure pour une inférence ultra-précise."
+  }
+}

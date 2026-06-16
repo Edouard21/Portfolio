@@ -1,0 +1,27 @@
+{
+  "nav": {
+    "projects": "Projects",
+    "lab": "Lab",
+    "blog": "Blog",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "downloadCV": "Download CV",
+  "viewProjects": "View my projects",
+  "contactMe": "Contact me",
+  "details": "Details",
+  "readMore": "Read →",
+  "close": "Close",
+  "problem": "The Problem",
+  "solution": "The Solution",
+  "sourceCode": "Source Code",
+  "liveDemo": "Live Demo",
+  "allRights": "All rights reserved",
+  "builtWith": "Built with React by Édouard Lesieur",
+  "scrollDown": "Scroll down",
+  "filterAll": "All",
+  "filterNLP": "NLP",
+  "filterCV": "Computer Vision",
+  "filterDataViz": "Data Viz",
+  "filterMLOps": "MLOps"
+}

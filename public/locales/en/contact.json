@@ -1,0 +1,17 @@
+{
+  "sectionTitle": "Contact",
+  "sectionSubtitle": "Have a project, a question, or just want to chat? Open the terminal.",
+  "nameLabel": "name",
+  "companyLabel": "company",
+  "messageLabel": "message",
+  "namePlaceholder": "Your name",
+  "companyPlaceholder": "Your company",
+  "messagePlaceholder": "Your message...",
+  "submit": "send",
+  "sending": "Sending...",
+  "successStatus": "Status: 200 OK",
+  "successMessage": "Data transmitted successfully. Édouard will get back to you within 24h.",
+  "errorRequired": "Error: All fields are required.",
+  "terminalWelcome": "Welcome to Édouard's contact terminal.",
+  "terminalHelp": "Type your information below to initiate a connection."
+}

@@ -1,0 +1,17 @@
+{
+  "sectionTitle": "Contact",
+  "sectionSubtitle": "Vous avez un projet, une question ou simplement envie d'échanger ? Ouvrez le terminal.",
+  "nameLabel": "nom",
+  "companyLabel": "entreprise",
+  "messageLabel": "message",
+  "namePlaceholder": "Votre nom",
+  "companyPlaceholder": "Votre entreprise",
+  "messagePlaceholder": "Votre message...",
+  "submit": "envoyer",
+  "sending": "Envoi en cours...",
+  "successStatus": "Status: 200 OK",
+  "successMessage": "Données transmises avec succès. Édouard vous répondra sous 24h.",
+  "errorRequired": "Erreur: Tous les champs sont requis.",
+  "terminalWelcome": "Bienvenue dans le terminal de contact d'Édouard.",
+  "terminalHelp": "Tapez vos informations ci-dessous pour initier une connexion."
+}
