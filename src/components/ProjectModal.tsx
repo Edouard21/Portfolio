@@ -56,25 +56,24 @@ export const ProjectModal: React.FC<ProjectModalProps> = ({ project, onClose }) 
             ))}
           </div>
 
+          <div className="modal__actions">
+            {project.githubUrl && (
+              <Button variant="secondary" size="sm" icon={<FiGithub />} href={project.githubUrl}>
+                {t('common:sourceCode')}
+              </Button>
+            )}
+            {project.liveUrl && (
+              <Button variant="primary" size="sm" icon={<FiExternalLink />} href={project.liveUrl}>
+                {t('common:liveDemo')}
+              </Button>
+            )}
+          </div>
+
           {(project.image || project.codeSnippet) && (
             <div className="modal__section">
-              <div className="modal__preview-header">
-                <h3 className="modal__section-title">
-                  {'// '}{project.image ? t('common:preview', 'Preview') : 'Code'}
-                </h3>
-                <div className="modal__actions">
-                  {project.githubUrl && (
-                    <Button variant="secondary" size="sm" icon={<FiGithub />} href={project.githubUrl}>
-                      {t('common:sourceCode')}
-                    </Button>
-                  )}
-                  {project.liveUrl && (
-                    <Button variant="primary" size="sm" icon={<FiExternalLink />} href={project.liveUrl}>
-                      {t('common:liveDemo')}
-                    </Button>
-                  )}
-                </div>
-              </div>
+              <h3 className="modal__section-title">
+                {'// '}{project.image ? t('common:preview', 'Preview') : 'Code'}
+              </h3>
 
               {project.image ? (
                 <>
