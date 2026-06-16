@@ -39,12 +39,6 @@ export const ProjectModal: React.FC<ProjectModalProps> = ({ project, onClose }) 
           </button>
         </div>
 
-        <div className="modal__tags">
-          {project.tags.map((tag) => (
-            <Tag key={tag}>{tag}</Tag>
-          ))}
-        </div>
-
         <div className="modal__body">
           <div className="modal__section">
             <h3 className="modal__section-title">{'// '}{t('common:problem')}</h3>
@@ -54,6 +48,12 @@ export const ProjectModal: React.FC<ProjectModalProps> = ({ project, onClose }) 
           <div className="modal__section">
             <h3 className="modal__section-title">{'// '}{t('common:solution')}</h3>
             <p className="modal__section-text">{t(project.solutionKey)}</p>
+          </div>
+
+          <div className="modal__tags">
+            {project.tags.map((tag) => (
+              <Tag key={tag}>{tag}</Tag>
+            ))}
           </div>
 
           {project.image ? (
