@@ -22,3 +22,7 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Ignore root media/documents (unless they are inside public/ or src/assets/)
+/*.png
+/*.pdf
