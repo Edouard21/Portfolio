@@ -1,4 +1,5 @@
 import { Suspense } from 'react';
+import { Analytics } from '@vercel/analytics/react';
 import { Layout } from './components/layout/Layout';
 import { HeroSection } from './sections/HeroSection';
 import { ProjectsSection } from './sections/ProjectsSection';
@@ -24,6 +25,7 @@ function App() {
           <AboutSection />
           <ContactSection />
         </Layout>
+        <Analytics />
       </div>
     </Suspense>
   );
