@@ -134,7 +134,7 @@
 .modal__actions {
   display: flex;
   gap: var(--space-3);
-  margin-top: var(--space-4);
+  margin-bottom: var(--space-4);
 }
 
 @media (max-width: 640px) {

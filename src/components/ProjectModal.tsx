@@ -56,50 +56,56 @@ export const ProjectModal: React.FC<ProjectModalProps> = ({ project, onClose }) 
             ))}
           </div>
 
-          {project.image ? (
+          {(project.image || project.codeSnippet) && (
             <div className="modal__section">
-              <h3 className="modal__section-title">{'// '}{t('common:preview', 'Preview')}</h3>
-              <div className="modal__image-container" onClick={() => setIsImageZoomed(true)}>
-                <img src={project.image} alt={t(project.titleKey)} className="modal__image" />
+              <div className="modal__preview-header">
+                <h3 className="modal__section-title">
+                  {'// '}{project.image ? t('common:preview', 'Preview') : 'Code'}
+                </h3>
+                <div className="modal__actions">
+                  {project.githubUrl && (
+                    <Button variant="secondary" size="sm" icon={<FiGithub />} href={project.githubUrl}>
+                      {t('common:sourceCode')}
+                    </Button>
+                  )}
+                  {project.liveUrl && (
+                    <Button variant="primary" size="sm" icon={<FiExternalLink />} href={project.liveUrl}>
+                      {t('common:liveDemo')}
+                    </Button>
+                  )}
+                </div>
               </div>
-              {isImageZoomed && (
-                <div className="modal__image-zoomed-overlay" onClick={() => setIsImageZoomed(false)}>
-                  <img src={project.image} alt={t(project.titleKey)} className="modal__image-zoomed" />
+
+              {project.image ? (
+                <>
+                  <div className="modal__image-container" onClick={() => setIsImageZoomed(true)}>
+                    <img src={project.image} alt={t(project.titleKey)} className="modal__image" />
+                  </div>
+                  {isImageZoomed && (
+                    <div className="modal__image-zoomed-overlay" onClick={() => setIsImageZoomed(false)}>
+                      <img src={project.image} alt={t(project.titleKey)} className="modal__image-zoomed" />
+                    </div>
+                  )}
+                </>
+              ) : (
+                <div className="modal__code">
+                  <div className="modal__code-header">
+                    <span className="modal__code-dot modal__code-dot--red" />
+                    <span className="modal__code-dot modal__code-dot--yellow" />
+                    <span className="modal__code-dot modal__code-dot--green" />
+                  </div>
+                  <SyntaxHighlighter
+                    language={project.codeLanguage || 'python'}
+                    style={vscDarkPlus}
+                    showLineNumbers
+                    wrapLines
+                  >
+                    {project.codeSnippet}
+                  </SyntaxHighlighter>
                 </div>
               )}
             </div>
-          ) : project.codeSnippet && (
-            <div className="modal__section">
-              <h3 className="modal__section-title">{'// Code'}</h3>
-              <div className="modal__code">
-                <div className="modal__code-header">
-                  <span className="modal__code-dot modal__code-dot--red" />
-                  <span className="modal__code-dot modal__code-dot--yellow" />
-                  <span className="modal__code-dot modal__code-dot--green" />
-                </div>
-                <SyntaxHighlighter
-                  language={project.codeLanguage || 'python'}
-                  style={vscDarkPlus}
-                  showLineNumbers
-                  wrapLines
-                >
-                  {project.codeSnippet}
-                </SyntaxHighlighter>
-              </div>
-            </div>
           )}
-          <div className="modal__actions">
-            {project.githubUrl && (
-              <Button variant="secondary" size="sm" icon={<FiGithub />} href={project.githubUrl}>
-                {t('common:sourceCode')}
-              </Button>
-            )}
-            {project.liveUrl && (
-              <Button variant="primary" size="sm" icon={<FiExternalLink />} href={project.liveUrl}>
-                {t('common:liveDemo')}
-              </Button>
-            )}
-          </div>
         </div>
       </div>
     </div>
