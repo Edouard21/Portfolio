@@ -5,7 +5,7 @@ Welcome to the source code of my personal portfolio! This website serves as a sh
 Built with modern web technologies, this portfolio is fully responsive, bilingual (English/French), and features a clean, interactive UI.
 
 ## 🚀 Live Demo
-*(Your Vercel URL will go here once deployed - e.g., https://portfolio-edouard.vercel.app)*
+🌍 **[https://portfolio-xi-hazel-35.vercel.app/](https://portfolio-xi-hazel-35.vercel.app/)**
 
 ## 🛠️ Tech Stack
 
