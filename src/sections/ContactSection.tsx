@@ -24,7 +24,7 @@ export const ContactSection = () => {
     // Construit l'URL mailto avec les informations du formulaire
     const subject = encodeURIComponent(`Contact depuis le Portfolio - ${name}`);
     const body = encodeURIComponent(`Nom: ${name}\nEntreprise: ${company}\n\nMessage:\n${message}`);
-    const myEmail = "contact@edouardlesieur.com"; // À remplacer par votre vrai mail si différent
+    const myEmail = "edouardlesieur21@gmail.com";
     
     // Ouvre le client mail de l'utilisateur
     window.location.href = `mailto:${myEmail}?subject=${subject}&body=${body}`;
