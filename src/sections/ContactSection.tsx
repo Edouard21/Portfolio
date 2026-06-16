@@ -20,14 +20,19 @@ export const ContactSection = () => {
       setStatus('error');
       return;
     }
-    setStatus('sending');
-    // Simulate sending
-    setTimeout(() => {
-      setStatus('success');
-      setName('');
-      setCompany('');
-      setMessage('');
-    }, 1500);
+    
+    // Construit l'URL mailto avec les informations du formulaire
+    const subject = encodeURIComponent(`Contact depuis le Portfolio - ${name}`);
+    const body = encodeURIComponent(`Nom: ${name}\nEntreprise: ${company}\n\nMessage:\n${message}`);
+    const myEmail = "contact@edouardlesieur.com"; // À remplacer par votre vrai mail si différent
+    
+    // Ouvre le client mail de l'utilisateur
+    window.location.href = `mailto:${myEmail}?subject=${subject}&body=${body}`;
+    
+    setStatus('success');
+    setName('');
+    setCompany('');
+    setMessage('');
   };
 
   return (
