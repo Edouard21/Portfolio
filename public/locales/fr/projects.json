@@ -10,7 +10,7 @@
   "project2": {
     "title": "Détecteur de Bots Rocket League",
     "description": "Application Machine Learning full-stack pour classifier automatiquement les joueurs humains et les bots à partir de fichiers de replay.",
-    "problem": "L'utilisation de bots IA dans Rocket League nuit à l'intégrité compétitive, et leur identification manuelle à partir des données de replay est complexe et chronophage.",
+    "problem": "L'utilisation de bots IA dans Rocket League nuit à l'intégrité compétitive, et leur identification manuelle à partir des données de replay est complexe voir impossible.",
     "solution": "Développement d'un système complet : frontend React/Vercel avec API proxy sécurisée, et backend FastAPI sur Hugging Face. Le système extrait les caractéristiques physiques et réseau des fichiers .replay et utilise un modèle PyTorch sur mesure pour une inférence ultra-précise."
   }
 }
