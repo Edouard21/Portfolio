@@ -88,19 +88,18 @@ export const ProjectModal: React.FC<ProjectModalProps> = ({ project, onClose }) 
               </div>
             </div>
           )}
-        </div>
-
-        <div className="modal__actions">
-          {project.githubUrl && (
-            <Button variant="secondary" size="sm" icon={<FiGithub />} href={project.githubUrl}>
-              {t('common:sourceCode')}
-            </Button>
-          )}
-          {project.liveUrl && (
-            <Button variant="primary" size="sm" icon={<FiExternalLink />} href={project.liveUrl}>
-              {t('common:liveDemo')}
-            </Button>
-          )}
+          <div className="modal__actions">
+            {project.githubUrl && (
+              <Button variant="secondary" size="sm" icon={<FiGithub />} href={project.githubUrl}>
+                {t('common:sourceCode')}
+              </Button>
+            )}
+            {project.liveUrl && (
+              <Button variant="primary" size="sm" icon={<FiExternalLink />} href={project.liveUrl}>
+                {t('common:liveDemo')}
+              </Button>
+            )}
+          </div>
         </div>
       </div>
     </div>
