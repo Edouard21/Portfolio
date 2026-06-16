@@ -67,7 +67,7 @@
   display: flex;
   flex-wrap: wrap;
   gap: var(--space-2);
-  padding: var(--space-6) var(--space-8) 0;
+  margin-bottom: var(--space-6);
 }
 
 .modal__body {
@@ -150,8 +150,7 @@
 
   .modal__header,
   .modal__body,
-  .modal__actions,
-  .modal__tags {
+  .modal__actions {
     padding-left: var(--space-5);
     padding-right: var(--space-5);
   }
