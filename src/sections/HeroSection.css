@@ -12,7 +12,7 @@
   position: relative;
   z-index: 1;
   text-align: center;
-  max-width: 800px;
+  max-width: 1000px;
   padding: var(--space-8);
   animation: fadeInUp 0.8s ease forwards;
 }
@@ -41,7 +41,7 @@
 }
 
 .hero__title {
-  font-size: var(--text-7xl);
+  font-size: clamp(2rem, 5vw, var(--text-5xl));
   font-weight: 700;
   line-height: 1.1;
   margin-bottom: var(--space-6);

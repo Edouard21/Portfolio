@@ -99,7 +99,7 @@ export const ProjectModal: React.FC<ProjectModalProps> = ({ project, onClose }) 
                     showLineNumbers
                     wrapLines
                   >
-                    {project.codeSnippet}
+                    {project.codeSnippet || ''}
                   </SyntaxHighlighter>
                 </div>
               )}
