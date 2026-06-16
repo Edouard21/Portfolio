@@ -5,19 +5,19 @@
   "skills": {
     "ai": {
       "title": "🧠 Modélisation IA",
-      "items": ["PyTorch", "TensorFlow", "Scikit-Learn", "Transformers", "LangChain", "LLMs", "Computer Vision", "NLP"]
+      "items": ["TensorFlow", "PyTorch", "Machine Learning", "Deep Q Learning", "PPO", "LangChain", "LLMs Locaux", "Ollama", "Gemma", "Modèles de Vision"]
     },
     "data": {
-      "title": "🛠️ Data Engineering",
-      "items": ["SQL", "PostgreSQL", "Apache Spark", "Airflow", "dbt", "Kafka", "Elasticsearch"]
+      "title": "🛠️ Data Engineering & Analytics",
+      "items": ["SQL", "PostgreSQL", "ChromaDB", "Pandas", "Power BI", "Looker"]
     },
     "dev": {
-      "title": "💻 Développement",
-      "items": ["Python", "TypeScript", "React", "FastAPI", "Docker", "Git", "CI/CD", "Linux"]
+      "title": "💻 Développement & Architecture",
+      "items": ["Python", "C", "TypeScript", "React", "Streamlit", "Chainlit", "Git", "Google Apps Script"]
     },
     "cloud": {
-      "title": "☁️ Cloud & MLOps",
-      "items": ["AWS", "GCP", "MLflow", "Kubernetes", "Terraform", "Grafana", "Evidently AI"]
+      "title": "☁️ Déploiement & MLOps",
+      "items": ["Docker", "Vercel", "MLflow"]
     }
   }
 }
