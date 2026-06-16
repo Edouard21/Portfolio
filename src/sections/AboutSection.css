@@ -10,7 +10,7 @@
 }
 
 .about__bio {
-  font-size: var(--text-base);
+  font-size: var(--text-lg);
   color: var(--text-secondary);
   line-height: 1.8;
   white-space: pre-line;
