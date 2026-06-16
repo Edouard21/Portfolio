@@ -1,6 +1,6 @@
 import { useTranslation } from 'react-i18next';
 import { FiGithub, FiLinkedin } from 'react-icons/fi';
-import { SiKaggle, SiHuggingface } from 'react-icons/si';
+import { SiHuggingface } from 'react-icons/si';
 import './Footer.css';
 
 export const Footer = () => {
@@ -20,9 +20,6 @@ export const Footer = () => {
           </a>
           <a href="https://www.linkedin.com/in/edouard-lesieur-2ab109236/" target="_blank" rel="noopener noreferrer" className="footer__link" aria-label="LinkedIn">
             <FiLinkedin />
-          </a>
-          <a href="https://kaggle.com" target="_blank" rel="noopener noreferrer" className="footer__link" aria-label="Kaggle">
-            <SiKaggle />
           </a>
           <a href="https://huggingface.co/Edouard77" target="_blank" rel="noopener noreferrer" className="footer__link" aria-label="Hugging Face">
             <SiHuggingface />
