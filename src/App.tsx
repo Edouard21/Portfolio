@@ -1,5 +1,6 @@
 import { Suspense } from 'react';
 import { Analytics } from '@vercel/analytics/react';
+import { SpeedInsights } from '@vercel/speed-insights/react';
 import { Layout } from './components/layout/Layout';
 import { HeroSection } from './sections/HeroSection';
 import { ProjectsSection } from './sections/ProjectsSection';
@@ -26,6 +27,7 @@ function App() {
           <ContactSection />
         </Layout>
         <Analytics />
+        <SpeedInsights />
       </div>
     </Suspense>
   );
