@@ -24,7 +24,7 @@ export const Footer = () => {
           <a href="https://kaggle.com" target="_blank" rel="noopener noreferrer" className="footer__link" aria-label="Kaggle">
             <SiKaggle />
           </a>
-          <a href="https://huggingface.co" target="_blank" rel="noopener noreferrer" className="footer__link" aria-label="Hugging Face">
+          <a href="https://huggingface.co/Edouard77" target="_blank" rel="noopener noreferrer" className="footer__link" aria-label="Hugging Face">
             <SiHuggingface />
           </a>
         </div>
