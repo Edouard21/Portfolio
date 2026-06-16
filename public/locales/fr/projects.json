@@ -2,10 +2,10 @@
   "sectionTitle": "Projets",
   "sectionSubtitle": "Une sélection de projets en IA, Data Science et Engineering.",
   "project1": {
-    "title": "RAG Multimodal Local",
-    "description": "Assistant conversationnel intelligent utilisant RAG (Retrieval-Augmented Generation) sur une documentation technique complexe.",
-    "problem": "Les techniciens passaient un temps considérable à rechercher des informations vitales enfouies dans des documents industriels riches en schémas et tableaux que les systèmes de recherche classiques ignoraient.",
-    "solution": "Implémentation d'un système RAG 100% local avec LangChain, embeddings multimodaux via Gemma 4:12b (Ollama) et ChromaDB. Le chatbot retrouve instantanément les données techniques pertinentes (texte et images), garantissant la confidentialité absolue des données industrielles."
+    "title": "Chatbot Industriel Local : Interroger des manuels complexes (Textes & Images)",
+    "description": "Assistant conversationnel intelligent capable d'analyser des documentations techniques denses et de croiser le texte avec les schémas.",
+    "problem": "Dans l'industrie, les techniciens perdent un temps précieux à fouiller dans des centaines de pages de manuels. Les moteurs de recherche classiques sont inefficaces car ils ignorent totalement les schémas et tableaux, pourtant vitaux pour les opérations techniques.",
+    "solution": "Développement d'une architecture RAG multimodale et 100% locale (LangChain, ChromaDB, Gemma 4:12b via Ollama). L'IA 'lit' la documentation complète, schémas inclus, et fournit des réponses instantanées et sourcées. Fonctionnant hors-ligne, elle garantit une confidentialité absolue des données industrielles."
   },
   "project2": {
     "title": "Détecteur de Bots Rocket League",
