@@ -4,6 +4,7 @@ import { SpeedInsights } from '@vercel/speed-insights/react';
 import { Layout } from './components/layout/Layout';
 import { HeroSection } from './sections/HeroSection';
 import { ProjectsSection } from './sections/ProjectsSection';
+import { ExperienceSection } from './sections/ExperienceSection';
 import { AboutSection } from './sections/AboutSection';
 import { ContactSection } from './sections/ContactSection';
 import './App.css';
@@ -23,6 +24,7 @@ function App() {
         <Layout>
           <HeroSection />
           <ProjectsSection />
+          <ExperienceSection />
           <AboutSection />
           <ContactSection />
         </Layout>

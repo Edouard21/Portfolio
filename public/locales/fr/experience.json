@@ -1,0 +1,29 @@
+{
+  "sectionTitle": "Expériences",
+  "jobs": [
+    {
+      "company": "OneFid",
+      "role": "Directeur de la partie technique/informatique (CTO)",
+      "location": "Lyon, France",
+      "period": "2025 - 2026",
+      "description": "Création de société : SaaS logiciel de fidélité",
+      "achievements": [
+        "Gestion de Projet IA/Digital : Pilotage du backlog et du cycle de développement d'une solution SaaS de bout en bout (Agile/DevOps).",
+        "Gestion du Cycle de Vie : Management complet du cycle de développement, de l'analyse des besoins utilisateurs (commerçants) à la livraison finale (MVP et itérations).",
+        "Interface Métier/Technique : Collaboration étroite avec les parties prenantes pour traduire les enjeux business en spécifications techniques ; gestion de la communication et du support en production."
+      ]
+    },
+    {
+      "company": "AIRBUS Atlantic - Service Manufacturing Engineering",
+      "role": "Apprenti Ingénieur Informatique Spécialisé en IA / Data",
+      "location": "Nantes, France",
+      "period": "2022 - 2025",
+      "description": "Mission : Digitaliser et améliorer le suivi du service",
+      "achievements": [
+        "Digitalisation & Low-Code : Conception et déploiement de bases de suivi automatisées via l'écosystème Google (Apps Script/Sheets), standardisant le reporting pour plus de 30 utilisateurs quotidiens.",
+        "Analyse de Rentabilité : Automatisation de processus via Python permettant un gain de 6h/semaine, avec un focus permanent sur la création de valeur pour les utilisateurs finaux.",
+        "Accompagnement & Support : Traduction des besoins des équipes opérationnelles en solutions techniques ; support et formation de proximité pour faciliter l'adoption des nouveaux outils digitaux."
+      ]
+    }
+  ]
+}

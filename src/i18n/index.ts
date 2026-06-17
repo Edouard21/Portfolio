@@ -11,7 +11,7 @@ i18n
     supportedLngs: ['fr', 'en'],
     fallbackLng: 'fr',
     defaultNS: 'common',
-    ns: ['common', 'hero', 'projects', 'blog', 'about', 'contact'],
+    ns: ['common', 'hero', 'projects', 'blog', 'about', 'contact', 'experience'],
     detection: {
       order: ['localStorage', 'navigator'],
       caches: ['localStorage'],
